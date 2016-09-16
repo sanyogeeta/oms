@@ -1,0 +1,6 @@
+---
+applications:
+  - name: eOMAPIAuthentication
+    buildpack: java_buildpack
+    path: target/eOMAPIAuthentication-1.1.6.jar
+    memory: 1G

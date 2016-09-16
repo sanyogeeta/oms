@@ -1,0 +1,65 @@
+!SESSION 2016-08-16 20:37:12.741 -----------------------------------------------
+eclipse.buildId=3.5.1.201405030657-RELEASE-e43
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:37:44.056
+!MESSAGE Failed to decrypt password for server artifactory.repo.thirdparty: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:37:44.282
+!MESSAGE Failed to decrypt password for server artifactory.repo.release: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:37:44.295
+!MESSAGE Failed to decrypt password for server artifactory.repo.snapshot: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.mylyn.tasks.core 1 0 2016-08-16 20:37:45.187
+!MESSAGE Migrating task repository credentials from keyring.
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-08-16 20:37:45.381
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-08-16 20:37:45.381
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2016-08-16 20:37:45.381
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-08-16 20:37:45.381
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-08-16 20:37:45.381
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:38:09.045
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:38:09.047
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:38:09.048
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+!SESSION 2016-08-16 20:38:58.307 -----------------------------------------------
+eclipse.buildId=3.5.1.201405030657-RELEASE-e43
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:39:09.252
+!MESSAGE Failed to decrypt password for server artifactory.repo.thirdparty: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:39:09.264
+!MESSAGE Failed to decrypt password for server artifactory.repo.release: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-16 20:39:09.273
+!MESSAGE Failed to decrypt password for server artifactory.repo.snapshot: org.sonatype.plexus.components.cipher.PlexusCipherException: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.springframework.ide.eclipse.uaa 4 2 2016-08-16 20:39:13.160
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.uaa".
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.ide.eclipse.internal.uaa.monitor.CommandUsageMonitor.startMonitoring(CommandUsageMonitor.java:61)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin$1$1.run(UaaPlugin.java:92)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin$1.run(UaaPlugin.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
